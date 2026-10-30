@@ -56,7 +56,7 @@ const App = () => {
               setDetail(e.target.value)
               console.log(e.target.value)
             }}
-            className='px-5 h-32 font-medium w-full h-20 py-2 border-2 rounded' 
+            className='px-5 h-32 font-medium w-full py-2 border-2 rounded' 
             placeholder='Write Details: '/>
         
             <button 
@@ -76,7 +76,7 @@ const App = () => {
                 return <div key={idx} className='relative h-52 w-40 rounded-2xl text-black p-4 bg-cover bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalF8sGzepB4L8FxAbMrexd_bmz-KGLPeSOB7vWc_Rhg&s=10)]'>
                   <h2 onClick={()=>{
                     deleteNotes(idx)
-                  }} className='absolute active:scale-90 top-5 right-5 bg-red-500 p-2 rounded-full text-xs'> X </h2>
+                  }} className='absolute active:scale-95 top-5 right-5 bg-red-500 p-2 rounded-full text-xs'> X </h2>
                   <h3 className='p-5 leading-tight text-xl font-bold'>{elem.title}</h3>
                   <p className='mt-4 leading-tight font-medium text-gray-500'>{elem.detail}</p>
 
