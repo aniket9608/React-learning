@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+input{
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+h1{
+    font-weight: 500;
+
+}
+button{
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(26, 69, 69);
+    padding: 4px;
+    
+}
+button:hover{
+    scale: calc(1.2);
+    background-color: rgb(13, 99, 99);
+}
